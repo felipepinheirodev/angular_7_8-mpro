@@ -1,1 +1,1 @@
-# angular_7_8-mpro
+# Treinamento Angular 7|8 da MPro Consultoria.
