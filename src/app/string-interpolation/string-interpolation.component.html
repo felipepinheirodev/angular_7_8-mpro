@@ -1,0 +1,49 @@
+<mat-card class="myCard">
+  <br/>
+    <mat-card-header>
+      <mat-card-title>Person Data</mat-card-title>
+    </mat-card-header>
+    <br/>
+
+    <mat-card-content>
+      <p>First Name: {{ person.firstName }}</p>
+      <p>Last Name: {{ person.lastName }}</p>
+      <p>Age: {{ person.age }}</p>
+      <p>Adress: {{ person.adress }}</p>
+      <form>
+        <div>
+      <mat-form-field>
+        <input matInput placeholder="First Name:" value="{{ person.firstName }}">
+      </mat-form-field>
+    </div>
+    <div>
+      <mat-form-field>
+        <input matInput placeholder="Last Name:" value="{{ person.lastName }}">
+      </mat-form-field>
+    </div>
+      <div>
+      <mat-form-field>
+        <input matInput placeholder="Age:" value="{{ person.age }}">
+      </mat-form-field>
+    </div>
+      <div>
+      <mat-form-field>
+        <input matInput placeholder="Adress:" value="{{ person.adress }}">
+      </mat-form-field>
+    </div>
+
+    </form>
+    </mat-card-content>
+    <br/>
+    <mat-card-actions>
+      <button mat-button>LIKE</button>
+      <button mat-button>SHARE</button>
+    </mat-card-actions>
+</mat-card>
+
+<!-- 
+<h1>{{  firstName }}</h1>
+<h2>{{ person.firstName }}</h2>
+<h2>{{ person.lastName }}</h2> -->
+
+
